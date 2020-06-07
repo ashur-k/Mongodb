@@ -1,0 +1,7 @@
+1. Go to Mongodb website
+2. get started free
+3.create account or if you already have log-into account
+create clusters
+choose aws and choose region closeset to you
+choose cluster tier, chose m0 free for ever
+create username to access dababase
