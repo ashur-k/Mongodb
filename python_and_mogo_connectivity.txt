@@ -1,0 +1,21 @@
+1. pip3 install dnspython
+2.pip3 install pymongo
+
+from mongo web choose connect to application
+
+export MONGO_URI="mongodb+srv://root:r00tUser@cluster0-dllo5.mongodb.net/myTestDB?retryWrites=true&w=majority"
+
+Ok create .gitignore and env.py file with command 
+touch .gitignore
+touch env.py
+
+add following lines to the files in respective order
+    {add these lines to gitignore and / is for subfolder}
+    env.py
+    __pycache__/
+    *.py[cod]
+
+    to env.py
+    import os
+
+os.environ.setdefault("MONGO_URI", "mongodb+srv://root:r00tUser@cluster0-dllo5.mongodb.net/myTestDB?retryWrites=true&w=majority")

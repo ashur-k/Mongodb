@@ -1,0 +1,7 @@
+handy commands are in use every now and then
+
+touch .gitignore
+touch env.py
+pip3 freeze --local > requirements.txt
+
+ctrl+shift+k is shortcut key to delte 
